@@ -133,11 +133,10 @@ ul>li>a:hover{
     margin-bottom: 10px;
 }
 
-/* .coffeeandcake:hover{
-    background: rgba(0, 0, 0, 0.514);
-    width: 25%;
-    height: 100%;
-} */
+.coffeeandcake:hover{
+    box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.6);
+    
+}
 
 /* Footer */
 
@@ -205,6 +204,11 @@ p>a{
     background: rgba(99, 46, 11, 0.473);
     margin: 5px 0px 5px 0px;
 }
+.ourstory:hover{
+    font-size: 250%;
+    color: white;
+    box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.6);
+}
 .containaboutpage{
     display: flex;
     flex-wrap: wrap;
@@ -224,6 +228,10 @@ p>a{
     border-radius: 10px;
 
 }
+.photo:hover{
+    width: 21%;
+    box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.6);
+}
 .text{
     width: 65%;
     height: 100%;
@@ -234,6 +242,10 @@ p>a{
     height: 90%;
     margin: 5px;
 
+}
+.text:hover{
+    width: 66%;
+    box-shadow: 0px 0px 19px 6px rgba(223, 219, 219, 0.6);
 }
 /* Contact Page ----------------------------------------------*/
 .containcontactpage{
