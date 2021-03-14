@@ -391,3 +391,164 @@ h5{
 p>a{
     text-decoration: none;
 }
+
+/* Responsive--------------------------------- */
+
+@media (max-width:1024px) and (min-width:280px){
+    /* home page */
+
+    /* containter */
+.container{
+        flex-wrap: wrap;
+}
+
+.side-left,.side-right{
+    width: 100%;
+    height: 50%;
+    
+}
+#logo{
+    width: 50%;
+    height: 40%;
+}
+#logo:hover{
+    width: 40%;
+    height: 30%;
+}
+.textcenter{
+    color:black;
+    font-size: 120%;  
+}
+
+.letorder:hover{
+    font-size: 80%;
+}
+
+/* content */
+.content{
+    flex-wrap: wrap;
+}
+.coffeeandcake{
+    width: 35%;
+    height: 40%; 
+}
+
+
+/* About Page -----------------------------------------------*/
+
+
+.containaboutpage{
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+    width: 100%;
+}
+.baker,.cafer,.caker{
+    display: inline;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 30%;
+}
+.photo{
+    width:90%;
+    height: 15%;
+    border-radius: 10px;
+}
+.photo:hover{
+    width: 91%;
+    
+}
+.text{
+    font-size: 65%;
+    width: 90%;
+    height: 80%;
+}
+.text:hover{
+    width: 91%;
+    
+}
+/* contact-------------------- */
+
+.contact img{
+    width: 100px;
+    height: 60px;
+}
+
+.form{  
+    top: 34%;
+}
+
+/* Service Page ---------------------------------------------------*/
+
+.itemtext{
+    height: 3%;
+}
+.boxphoto{
+    height: 10%;
+}
+.boxphoto:hover{
+    height: 11%;
+}
+.order{
+    margin-left: 5px;
+}
+.order a{
+    display:grid;
+    height: 30%;
+    width: 10%;
+    margin: 5px;
+    background: rgba(148, 96, 62, 0.61);
+}
+/* Footer */
+
+.footericon{
+    height: 10%;
+}
+.footercopyright{
+    font-size: 80%;
+}
+h5{
+    font-size: 10px;
+}
+.icon{
+    width: 20px;
+}
+.icon:hover{
+    width: 15px;
+}
+.address,.footernemu{
+    width: 100%;
+    height: 40%;
+}
+.address{
+    margin: 20px;
+    margin-bottom: -20px;
+}
+.address p{
+    font-size: 70%;
+    padding: 1px;
+    margin: 0;
+}
+.footernemu h4{
+    margin-top: 10px;
+    font-size: 80%;
+}
+.footernemu p{
+    font-size: 80%;
+    padding: 0;
+    margin: 0;
+}
+.logofooter{
+    width: 60px;
+    height: 40px;
+}
+.logofooter p{
+    font-size: 80%;
+}
+p>a{
+    font-size: 80%;
+}
+
+}
+
+
